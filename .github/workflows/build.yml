@@ -75,7 +75,6 @@ jobs:
           API_TOKEN: ${{ secrets.API_TOKEN }}
 
   android:
-    if: false
     runs-on: ubuntu-20.04
     strategy:
       matrix:
